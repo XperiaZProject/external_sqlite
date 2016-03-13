@@ -96,10 +96,7 @@ LOCAL_C_INCLUDES := \
 LOCAL_SHARED_LIBRARIES := libsqlite \
             libicuuc \
             libicui18n \
-            liblog \
             libutils
-
-LOCAL_STATIC_LIBRARIES := libicuandroid_utils
 
 LOCAL_CFLAGS += $(device_sqlite_flags)
 
